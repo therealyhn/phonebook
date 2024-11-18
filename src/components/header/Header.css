@@ -1,0 +1,31 @@
+.header {
+  padding: 0px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: fantasy;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+/* Mobile devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .header {
+    padding: 5px;
+  }
+  .header h1 {
+    font-size: 24px;
+  }
+}
+
+/* Tablet devices (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .header {
+    padding: 10px;
+  }
+  .header h1 {
+    font-size: 28px;
+  }
+}
